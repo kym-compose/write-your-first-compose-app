@@ -35,6 +35,7 @@ fun Greeting(name: String) {
 }
 
 @Preview(showBackground = true)
+@Preview(showBackground = true, name = "Text Preview")
 @Composable
 fun DefaultPreview() {
     WriteYourFirstComposeAppTheme {
